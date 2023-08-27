@@ -1,10 +1,11 @@
 {
-    "name": "citronelle",
+    "name": "citronelle2",
     "description": "",
     "dependencies": {
         "device": "*",
         "animation": "*",
-        "feather": "*"
+        "feather": "*",
+        "pxt-status-bar": "github:jwunderl/pxt-status-bar#v0.4.2"
     },
     "files": [
         "main.blocks",

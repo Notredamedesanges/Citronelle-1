@@ -51,8 +51,27 @@ namespace myTiles {
 ..................................................
 22222222222222222222222222222222222222222222222222
 `, [myTiles.transparency16,myTiles.tile1,sprites.castle.tileGrass1,myTiles.tile6], TileScale.Sixteen);
+            case "level4":
+            case "level4":return tiles.createTilemap(hex`1000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000`, img`
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+`, [myTiles.transparency16], TileScale.Sixteen);
             case "level3":
-            case "level3":return tiles.createTilemap(hex`14000c00010404010104010103010104010101010000090001010101010101030301040403010101010007000201010000010101010103040401010101000000000000000001010101030304010101010100000000000000000000000000000101010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000008000000000000000000000000000000000000000505050605050506060505050605050506060606`, img`
+            case "level3":return tiles.createTilemap(hex`14000c00010404010104010103010104010101010909090901010e0d0d0b010303010404030101010100070002090900000c010101010304040101010100000000000000000a09090909090b010e09090f000000000000000000000000000010090f0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000008000000000000000000000000000000000000000505050605050506060505050605050506060606`, img`
 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 . . . . 
 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 . . . 
 2 2 2 . . 2 2 2 2 2 2 2 2 2 2 2 2 . . . 
@@ -65,7 +84,7 @@ namespace myTiles {
 . . . . . . . . . . . . . . . . . . . . 
 . . . . . . . . . . . . . . . . . . . . 
 2 2 2 . 2 2 2 . . 2 2 2 . 2 2 2 . . . . 
-`, [myTiles.transparency16,sprites.dungeon.floorLight0,sprites.dungeon.floorLight3,sprites.dungeon.floorLight4,sprites.dungeon.floorLight5,sprites.dungeon.floorDark4,sprites.dungeon.hazardLava1,myTiles.tile4,myTiles.tile6,myTiles.tile7], TileScale.Sixteen);
+`, [myTiles.transparency16,sprites.dungeon.floorLight0,sprites.dungeon.floorLight3,sprites.dungeon.floorLight4,sprites.dungeon.floorLight5,sprites.dungeon.floorDark4,sprites.dungeon.hazardLava1,myTiles.tile4,myTiles.tile6,sprites.dungeon.greenOuterNorth1,sprites.dungeon.greenOuterSouthEast,sprites.dungeon.greenOuterNorthEast,sprites.dungeon.greenOuterEast0,sprites.dungeon.greenOuterNorth0,sprites.dungeon.greenOuterNorthWest,sprites.dungeon.greenInnerSouthEast,sprites.dungeon.greenInnerSouthWest], TileScale.Sixteen);
         }
         return null;
     })
